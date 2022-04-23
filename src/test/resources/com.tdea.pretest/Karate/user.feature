@@ -6,7 +6,7 @@ Feature: user
     When method post
     Then status 200
 
-  Scenario: login user
+  Scenario: login of user
     Given url 'http://localhost:8080/user/login'
     And param username = 'admin'
     And param password = 'admin'
